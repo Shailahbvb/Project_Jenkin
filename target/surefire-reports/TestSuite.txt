@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 31.924 s <<< FAILURE! - in TestSuite
+com.training.TestNG_Sales1.Login.Login_02[public void com.training.TestNG_Sales1.Login.Login_02(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException, shailahandigol@gmail.com, Hanuman$84](1)  Time elapsed: 0.694 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='userNav']"}
+  (Session info: chrome=88.0.4324.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shailas-MacBook-Pro.local', ip: 'fe80:0:0:0:831:6b3e:cedd:2bb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/4l/ccwlkt797b7...}, goog:chromeOptions: {debuggerAddress: localhost:52238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a09ac841153244caae482d3707bdefa4
+*** Element info: {Using=xpath, value=//div[@id='userNav']}
+	at com.training.TestNG_Sales1.Login.Login_02(Login.java:121)
+
+com.training.TestNG_Sales1.Login.Test_03[private void com.training.TestNG_Sales1.Login.Test_03(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException, shailahandigol@gmail.com, Hanuman$84](1)  Time elapsed: 0.507 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='userNav']"}
+  (Session info: chrome=88.0.4324.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shailas-MacBook-Pro.local', ip: 'fe80:0:0:0:831:6b3e:cedd:2bb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/4l/ccwlkt797b7...}, goog:chromeOptions: {debuggerAddress: localhost:52238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a09ac841153244caae482d3707bdefa4
+*** Element info: {Using=xpath, value=//div[@id='userNav']}
+	at com.training.TestNG_Sales1.Login.Test_03(Login.java:165)
+
+com.training.TestNG_Sales1.Login.Test_04[private void com.training.TestNG_Sales1.Login.Test_04(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.lang.InterruptedException, shailahandigol@gmail.com, Hanuman$84](1)  Time elapsed: 5.29 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (a09ac841153244caae482d3707bdefa4)] -> id: clear_link] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shailas-MacBook-Pro.local', ip: 'fe80:0:0:0:831:6b3e:cedd:2bb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/4l/ccwlkt797b7...}, goog:chromeOptions: {debuggerAddress: localhost:52238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a09ac841153244caae482d3707bdefa4
+	at com.training.TestNG_Sales1.Login.Test_04(Login.java:203)
+
+com.training.TestNG_Sales1.Login.Test_04B[private void com.training.TestNG_Sales1.Login.Test_04B(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException](1)  Time elapsed: 5.237 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (a09ac841153244caae482d3707bdefa4)] -> id: clear_link] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shailas-MacBook-Pro.local', ip: 'fe80:0:0:0:831:6b3e:cedd:2bb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/4l/ccwlkt797b7...}, goog:chromeOptions: {debuggerAddress: localhost:52238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a09ac841153244caae482d3707bdefa4
+	at com.training.TestNG_Sales1.Login.Test_04B(Login.java:245)
+

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44861" started-at="2021-01-28T06:24:29Z" finished-at="2021-01-28T06:25:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44861" started-at="2021-01-28T06:24:29Z" finished-at="2021-01-28T06:25:14Z">
+      <class name="com.training.TestNG_Sales1.Login">
+        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.training.TestNG_Sales1.Login@cb644e]" name="Initialization" is-config="true" duration-ms="5474" started-at="2021-01-28T06:24:29Z" finished-at="2021-01-28T06:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialization -->
+        <test-method status="PASS" signature="Test_01(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.training.TestNG_Sales1.Login@cb644e]" name="Test_01" duration-ms="577" started-at="2021-01-28T06:24:35Z" data-provider="loginDatas" finished-at="2021-01-28T06:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void com.training.TestNG_Sales1.Login.Test_01(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shailahandigol@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hanuman$84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01 -->
+        <test-method status="PASS" signature="Login_02(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:1, instance:com.training.TestNG_Sales1.Login@cb644e]" name="Login_02" duration-ms="10943" started-at="2021-01-28T06:24:35Z" data-provider="loginDatas" finished-at="2021-01-28T06:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.training.TestNG_Sales1.Login.Login_02(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shailahandigol@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hanuman$84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_02 -->
+        <test-method status="PASS" signature="Test_03(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:2, instance:com.training.TestNG_Sales1.Login@cb644e]" name="Test_03" duration-ms="18636" started-at="2021-01-28T06:24:46Z" data-provider="loginDatas" finished-at="2021-01-28T06:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void com.training.TestNG_Sales1.Login.Test_03(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shailahandigol@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hanuman$84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03 -->
+        <test-method status="PASS" signature="Test_04(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:3, instance:com.training.TestNG_Sales1.Login@cb644e]" name="Test_04" duration-ms="5153" started-at="2021-01-28T06:25:05Z" data-provider="loginDatas" finished-at="2021-01-28T06:25:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void com.training.TestNG_Sales1.Login.Test_04(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shailahandigol@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hanuman$84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_04 -->
+        <test-method status="PASS" signature="Test_04B(java.lang.reflect.Method)[pri:4, instance:com.training.TestNG_Sales1.Login@cb644e]" name="Test_04B" duration-ms="3476" started-at="2021-01-28T06:25:10Z" finished-at="2021-01-28T06:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void com.training.TestNG_Sales1.Login.Test_04B(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_04B -->
+        <test-method status="PASS" signature="closereport()[pri:0, instance:com.training.TestNG_Sales1.Login@cb644e]" name="closereport" is-config="true" duration-ms="376" started-at="2021-01-28T06:25:14Z" finished-at="2021-01-28T06:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereport -->
+      </class> <!-- com.training.TestNG_Sales1.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
